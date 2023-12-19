@@ -112,7 +112,7 @@ Response
 
 - Endpoint: PUT /books/{id}
 
-- Example Payload:
+Example Payload:
 
 ```
 {
@@ -132,3 +132,6 @@ Response (Notice the creation and update timestamps)
   "Pages": 300
 }
 ```
+### Delete Book
+
+- Endpoint: DELETE /books/{id}
