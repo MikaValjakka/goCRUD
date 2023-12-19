@@ -62,13 +62,13 @@ Response (Notice GORM created_at, updated_at and deleted_at):
 
 ```
 {
-  "id": 1,
-  "title": "The Lord of the Rings",
-  "author": "J. R. R. Tolkien",
-  "pages": 1137,
-  "created_at": "2023-12-18T13:26:23Z",
-  "updated_at": "2023-12-18T13:26:23Z",
-  "deleted_at": null
+"ID": 1,
+"CreatedAt": "2023-12-18T13:36:20.786+02:00",
+"UpdatedAt": "2023-12-18T13:36:20.786+02:00",
+"DeletedAt": null,
+"Title": "Lord of the Rings",
+"Author": "J. R. R. Tolkien",
+"Pages": 1137
 }
 ```
 
@@ -80,21 +80,30 @@ Response
 
 ```
 {
-  "id": 1,
-  "title": "The Lord of the Rings",
-  "author": "J. R. R. Tolkien",
-  "pages": 1137,
-  "created_at": "2023-12-18T13:26:23Z",
-  "updated_at": "2023-12-18T13:26:23Z",
-  "deleted_at": null
+"ID": 1,
+"CreatedAt": "2023-12-18T13:36:20.786+02:00",
+"UpdatedAt": "2023-12-18T13:36:20.786+02:00",
+"DeletedAt": null,
+"Title": "Lord of the Rings",
+"Author": "J. R. R. Tolkien",
+"Pages": 1137
 },
 {
-  "ID": 2,
-  "CreatedAt": "2023-12-19T06:21:41.245+02:00",
-  "UpdatedAt": "2023-12-19T06:21:41.245+02:00",
-  "DeletedAt": null,
-  "Title": "Homeland",
-  "Author": "R. A. Salvatore",
-  "Pages": 332
-}, ...
+"ID": 2,
+"CreatedAt": "2023-12-19T06:16:10.988+02:00",
+"UpdatedAt": "2023-12-19T06:47:47.172+02:00",
+"DeletedAt": null,
+"Title": "Hobbit",
+"Author": "J. R. R. Tolkien",
+"Pages": 300
+},
+{
+"ID": 4,
+"CreatedAt": "2023-12-19T06:17:45.33+02:00",
+"UpdatedAt": "2023-12-19T06:17:45.33+02:00",
+"DeletedAt": null,
+"Title": "Elric of Melniboné",
+"Author": "Michael Moorcock",
+"Pages": 752
+} ...
 ```
