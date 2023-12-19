@@ -31,6 +31,7 @@ Create a new database (e.g., your_database_name).
 
 Create a .env file in the project root:
 
+    PORT=8080
     DB_STRING=username:password@tcp(127.0.0.1:3306)/your_database_name?  charset=utf8mb4&parseTime=True&loc=Local
 
 Replace username, password, and your_database_name with your MySQL credentials.
