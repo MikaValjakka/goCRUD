@@ -49,7 +49,7 @@ The server will start on http://localhost:8080.
 
 - Endpoint: POST /books
 
-Payload:
+Example Payload:
 
 ```
 {
@@ -107,4 +107,28 @@ Response
 "Author": "Michael Moorcock",
 "Pages": 752
 } ...
+```
+### Edit Book
+
+- Endpoint: PUT /books/{id}
+
+- Example Payload:
+
+```
+{
+  "title": "Silmarillion",
+}
+```
+
+Response (Notice the creation and update timestamps)
+```
+{
+  "ID": 2,
+  "CreatedAt": "2023-12-19T06:16:10.988+02:00",
+  "UpdatedAt": "2023-12-19T12:35:38.33+02:00",
+  "DeletedAt": null,
+  "Title": "Silmarillion",
+  "Author": "J. R. R. Tolkien",
+  "Pages": 300
+}
 ```
